@@ -1,4 +1,4 @@
-import {dbConn} from "../db";
+import {dbConn} from "../db.js";
 import Sequelize from "sequelize";
 
 const {DataTypes} = Sequelize;

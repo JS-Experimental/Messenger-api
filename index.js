@@ -1,6 +1,6 @@
 import bodyParser from "body-parser";
 import express from 'express';
-import {createNewMessage, getAllMessages} from "./services/MessageService";
+import {createNewMessage, getAllMessages} from "./services/MessageService.js";
 const app = express()
 const port = 80
 
