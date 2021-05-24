@@ -1,4 +1,4 @@
-import {MessageModel} from "../model/MessageModel.js";
+import {MessageModel} from "../model/MessageModel";
 
 export const createNewMessage = (messageText) => {
     try {
