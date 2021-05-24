@@ -1,8 +1,11 @@
 import bodyParser from "body-parser";
 import express from 'express';
+import cors from 'cors';
 import {createNewMessage, getAllMessages} from "./services/MessageService.js";
 const app = express()
 const port = process.env.PORT || 4000
+
+app.use(cors())
 
 app.use(bodyParser.json())
 
