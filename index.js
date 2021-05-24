@@ -2,7 +2,7 @@ import bodyParser from "body-parser";
 import express from 'express';
 import {createNewMessage, getAllMessages} from "./services/MessageService";
 const app = express()
-const port = 4000
+const port = 80
 
 app.use(bodyParser.json())
 
